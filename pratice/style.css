@@ -1,0 +1,77 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+    
+}
+.navv
+{
+    height: 45px;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    padding: 10px 20px;
+    gap: 45px;
+    align-items:center;
+
+}
+.navv a{
+    text-decoration: none;
+    color: white;
+}
+
+.navv #search i
+{
+    height: 100%;
+    width: 740px;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end; 
+    font-size: 20px;
+}
+.mainn #image
+{
+    height:589px;
+    width:100%;
+    background-image: url(https://www.w3schools.com/w3images/la.jpg);
+
+}
+.mainn #band
+{
+    height: 589px;
+    width:900px;
+    margin-left: 150px;
+    padding-top: 60px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mainn #band h2
+{
+    padding-top: 20px;
+    color: grey;
+    padding-bottom: 15px;
+}
+.mainn #band .img
+{
+    height: 230px;
+    width: 250px;
+    padding: 10px 30px;
+    border-radius: 35px;
+}
+.mainn #band #name 
+{
+    display: flex;
+    align-items: center;
+    gap :200px;
+    padding-top: 50px;
+    padding-left: 180px;
+
+}
